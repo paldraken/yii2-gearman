@@ -1,13 +1,13 @@
 {
-    "name": "shakura/yii2-gearman",
+    "name": "paldraken/yii2-gearman",
     "description": "Gearman handler for PHP",
     "keywords": ["yii", "extension"],
     "homepage": "https://github.com/shakura/yii2-gearman",
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "email": "waclaw@shakura.ru",
-        "source": "https://github.com/shakura/yii2-gearman"
+        "email": "paldraken@gamil.com",
+        "source": "https://github.com/paldraken/yii2-gearman"
     },
     "authors": [
         {
@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "yiisoft/yii2": "*",
+        "yiisoft/yii2": "~2.0.16",
         "react/event-loop": "0.4.*",
         "psr/log": "~1"
     },
@@ -29,7 +29,7 @@
     },
     "autoload": {
         "psr-4": {
-            "shakura\\yii2\\gearman\\": ""
+            "paldraken\\yii2\\gearman\\": ""
         }
     }
 }
