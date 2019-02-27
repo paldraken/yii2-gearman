@@ -1,5 +1,5 @@
 <?php
-namespace shakura\yii2\gearman;
+namespace paldraken\yii2\gearman;
 
 use GearmanJob;
 

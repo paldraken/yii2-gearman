@@ -1,12 +1,12 @@
 <?php
 
-namespace shakura\yii2\gearman;
+namespace paldraken\yii2\gearman;
 
 use Yii;
-use shakura\yii2\gearman\Application;
-use shakura\yii2\gearman\Dispatcher;
-use shakura\yii2\gearman\Config;
-use shakura\yii2\gearman\Process;
+use paldraken\yii2\gearman\Application;
+use paldraken\yii2\gearman\Dispatcher;
+use paldraken\yii2\gearman\Config;
+use paldraken\yii2\gearman\Process;
 
 class GearmanComponent extends \yii\base\Component
 {
